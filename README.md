@@ -12,8 +12,8 @@
 
 ```bash
 git clone git@github.com:vlinux/Kube-Prometheus.git
-kubectl apply -f Kube-Prometheus/maifests/setup/   #先部署Prometheus-Operator
-kubectl apply -f Kube-Prometheus/maifests/
+kubectl apply -f Kube-Prometheus/manifests/setup/   #先部署Prometheus-Operator
+kubectl apply -f Kube-Prometheus/manifests/
 ```
 
 完:grin:
