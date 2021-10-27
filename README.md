@@ -11,7 +11,7 @@
 ### 部署流程
 
 ```bash
-git clone git@github.com:vlinux/Kube-Prometheus.git
+git clone git@github.com:bococ/Kube-Prometheus.git
 kubectl apply -f Kube-Prometheus/manifests/setup/   #先部署Prometheus-Operator
 kubectl apply -f Kube-Prometheus/manifests/
 ```
